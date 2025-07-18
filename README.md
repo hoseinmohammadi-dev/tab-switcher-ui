@@ -2,6 +2,14 @@
 
 A basic tab navigation project built with HTML, modern CSS, and vanilla JavaScript.
 
+## 🚀 Live Demo
+
+👉 [Click here to view the live demo](https://hoseinmohammadi-dev.github.io/tab-switcher-ui/)
+
+## 📸 Preview
+
+![Project Screenshot](./screenshot.png)
+
 ## 🧠 About the Project
 
 This is a clean and responsive tab-based UI that includes:
