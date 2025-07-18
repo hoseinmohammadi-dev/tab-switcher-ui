@@ -7,8 +7,8 @@ A basic tab navigation project built with HTML, modern CSS, and vanilla JavaScri
 👉 [Click here to view the live demo](https://hoseinmohammadi-dev.github.io/tab-switcher-ui/)
 
 ## 📸 Preview
+<img width="1104" height="367" alt="Image" src="https://github.com/user-attachments/assets/251be16f-922a-4033-9b61-6d302f108b35" />
 
-![Project Screenshot](./screenshot.png)
 
 ## 🧠 About the Project
 
