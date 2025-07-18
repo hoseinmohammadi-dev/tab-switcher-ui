@@ -36,6 +36,5 @@ This project helps practice and demonstrate:
 - Basic component-based layout with JavaScript
 
 ## 🔗 Contact
-
-- GitHub: [hoseinmdev](https://github.com/hoseinmdev)  
+ 
 - Instagram: [@hoseinmdev](https://instagram.com/hoseinmdev)
