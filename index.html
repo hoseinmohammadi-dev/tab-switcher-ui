@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tab Switcher مدرن</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Vazirmatn', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding-top: 50px;
+    }
+
+    #button-container {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 30px;
+      backdrop-filter: blur(10px);
+    }
+
+    .tab-button {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 12px 20px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      font-size: 18px;
+    }
+
+    .tab-button:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .tab-button.active-button {
+      background: rgba(255, 255, 255, 0.7);
+      color: #1e3c72;
+      font-weight: bold;
+      box-shadow: 0 5px 25px rgba(255, 255, 255, 0.3);
+    }
+
+    #content-container {
+      width: 80%;
+      max-width: 700px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 20px;
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    .tab-content {
+      display: none;
+      font-size: 22px;
+      line-height: 1.8;
+      transition: opacity 0.4s ease-in-out;
+      opacity: 0;
+    }
+
+    .tab-content.active-content {
+      display: block;
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="button-container">
+    <div class="tab-button">صفحه اول</div>
+    <div class="tab-button">درباره ما</div>
+    <div class="tab-button">تماس با ما</div>
+  </div>
+
+  <div id="content-container">
+    <div class="tab-content active-content">به تب نویگیشن ساده من خوش اومدی</div>
+    <div class="tab-content">💎🖤سلام من حسینم</div>
+    <div class="tab-content">
+      <p>
+        اگه دوست داری با من در تماس باشی، می‌تونی از طریق گیت‌هاب باهام ارتباط برقرار کنی:
+        <br><br>
+        🔗 <a href="https://github.com/hoseinmohammadi-dev" target="_blank" rel="noopener noreferrer">hoseinmohammadi-dev</a>
+      </p>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
